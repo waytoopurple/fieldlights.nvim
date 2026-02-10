@@ -4,7 +4,7 @@ A Neovim port of the **Field Lights** VSCode color theme.
 
 ## Screenshot
 
-![Fieldlights colorscheme](assets/colorscheme.png)
+![Fieldlights colorscheme](assets/fieldlights.png)
 
 ## Installation
 
