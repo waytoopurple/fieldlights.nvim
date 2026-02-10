@@ -2,6 +2,10 @@
 
 A Neovim port of the **Field Lights** VSCode color theme.
 
+## Screenshot
+
+![Fieldlights colorscheme](assets/colorscheme.png)
+
 ## Installation
 
 ### Using lazy.nvim
@@ -44,6 +48,20 @@ require('lualine').setup({
 })
 ```
 
+### Rainbow Delimiters
+In order to get enable alternating parentheses, you should configure rainbow-delimiters.nvim it as such:
+```lua
+require("rainbow-delimiters.setup").setup({
+    highlight = {
+        "RainbowDelimiterRed",
+        "RainbowDelimiterYellow",
+        "RainbowDelimiterBlue",
+        "RainbowDelimiterOrange",
+        "RainbowDelimiterGreen",
+        "RainbowDelimiterViolet",
+    }
+})
+```
 ## Credits
 
 - [Field Lights](https://github.com/sveggiani/vscode-field-lights)

@@ -6,6 +6,7 @@ local modules = {
   "tree-sitter",
   "mason",
   "lazy",
+  "rainbow-delimiter",
 }
 
 function M.get()
