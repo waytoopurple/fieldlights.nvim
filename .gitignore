@@ -1,0 +1,12 @@
+
+# Neovim
+plugin/packer_compiled.lua
+lazy-lock.json
+
+# OS
+.DS_Store
+*.swp
+*.swo
+
+# Logs
+*.log
