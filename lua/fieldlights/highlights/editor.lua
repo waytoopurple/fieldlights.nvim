@@ -45,30 +45,6 @@ return {
 	Visual = { bg = p.visual_bg },
 	MatchParen = { bg = p.line_nr },
 
-	-- Markdown
-	markdownBold = { fg = p.markup_bold, bold = true },
-	markdownItalic = { fg = p.markup_italic, italic = true },
-	markdownUnderline = { fg = p.markup_underline, underline = true },
-	markdownStrike = { fg = p.markup_strike, strikethrough = true },
-	markdownBlockquote = { fg = p.markup_quote, italic = true },
-	markdownCode = { fg = p.function_name, bg = p.bg2 },
-	markdownHeading = { fg = p.string, bold = true },
-	markdownLink = { fg = p.link, underline = true },
-	markdownInserted = { fg = p.markup_inserted },
-	markdownDeleted = { fg = p.markup_deleted },
-	markdownChanged = { fg = p.markup_changed },
-
-	-- JSON / AceJump / Decorator
-	jsonKeyword = { fg = p.json_key },
-	AceJumpBlue = { fg = p.fg, bg = p.acejump_blue },
-	AceJumpGreen = { fg = p.fg, bg = p.acejump_green },
-	AceJumpOrange = { fg = p.fg, bg = p.acejump_orange },
-	AceJumpPurple = { fg = p.fg, bg = p.acejump_purple },
-	Decorator = { fg = p.decorator, italic = true },
-
-	-- Regex / URL
-	Regex = { fg = p.regex },
-	UnderlinedLink = { fg = p.link, underline = true },
 
 	-- LSP Diagnostics
 	DiagnosticError = { fg = p.error },
@@ -76,17 +52,6 @@ return {
 	DiagnosticInfo = { fg = p.info },
 	DiagnosticHint = { fg = p.type },
 
-	["@lsp.type.decorator"] = { fg = p.decorator },
-	["@lsp.type.parameter.lua"] = { fg = p.tokens },
-	["@lsp.typemod.parameter.declaration.lua"] = { fg = p.tokens },
-	["@lsp.typemod.variable.definition.lua"] = { fg = p.type },
-	["@lsp.typemod.variable.defaultLibrary.lua"] = { fg = p.tokens },
-	["@lsp.typemod.class.defaultLibrary.javascript"] = { fg = p.function_name },
-	["@lsp.typemod.member.defaultLibrary.javascript"] = { fg = p.function_name },
-	["@variable.parameter.python"] = { fg = p.tokens },
-	["@constant.builtin.python"] = { fg = p.tokens },
-	["@attribute.python"] = { fg = p.func_name },
-	JavaScriptNull = { fg = p.tokens },
 	--floating windows
 	NormalFloat = {
 		fg = p.fg,

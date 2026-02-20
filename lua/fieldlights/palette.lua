@@ -12,7 +12,7 @@ M.line_nr = "#3D4752"
 M.cursor = "#FFCC66"
 M.panel = "#1A1F28"
 M.comment = "#5C6773"
-M.tab_inactive_fg   = "#516170"
+M.tab_inactive_fg = "#516170"
 M.keyword = "#FFAE57"
 M.string = "#BAE67E"
 M.function_name = "#FFD580"
@@ -51,40 +51,37 @@ M.diff_delete_bg = util.blend("#F0717844", M.bg)
 M.diff_text_bg = util.blend("#FFCC6633", M.bg)
 
 M.neotree = {
-    background        = M.panel,
-    normal_fg         = util.blend("#738699DD", M.panel), -- sideBar.foreground
-    section_header_fg = M.cursor,  -- sideBarSectionHeader.foreground
-    inactive_bg       = M.panel,  -- list.inactiveSelectionBackground
-    inactive_fg       = M.variable,  -- list.inactiveSelectionForeground
-    active_bg         = M.active_bg,  -- list.activeSelectionBackground
-    active_fg         = M.variable,  -- list.activeSelectionForeground
-    hover_bg          = M.hover_bg,  -- list.hoverBackground
-    hover_fg          = M.variable,  -- list.hoverForeground
-    hidden_fg         = M.variable,
+	background = M.panel,
+	normal_fg = util.blend("#738699DD", M.panel), -- sideBar.foreground
+	section_header_fg = M.cursor, -- sideBarSectionHeader.foreground
+	inactive_bg = M.panel, -- list.inactiveSelectionBackground
+	inactive_fg = M.variable, -- list.inactiveSelectionForeground
+	active_bg = M.active_bg, -- list.activeSelectionBackground
+	active_fg = M.variable, -- list.activeSelectionForeground
+	hover_bg = M.hover_bg, -- list.hoverBackground
+	hover_fg = M.variable, -- list.hoverForeground
+	hidden_fg = M.variable,
 
-    -- Git decorations
-    git_added         = M.string,  -- editorGutter.addedBackground
-    git_modified      = M.type,  -- editorGutter.modifiedBackground
-    git_deleted       = M.error,  -- editorGutter.deletedBackground
-    git_ignored       = util.blend("#73869977", M.panel), -- gitDecoration.ignoredResourceForeground
+	-- Git decorations
+	git_added = M.string, -- editorGutter.addedBackground
+	git_modified = M.type, -- editorGutter.modifiedBackground
+	git_deleted = M.error, -- editorGutter.deletedBackground
+	git_ignored = util.blend("#73869977", M.panel), -- gitDecoration.ignoredResourceForeground
 
-    -- Folder / file icons
-    folder_fg         = M.type, -- type / JSON keys
-    file_fg           = M.fg,
-    symlink_fg        = M.string,
+	-- Folder / file icons
+	folder_fg = M.type, -- type / JSON keys
+	file_fg = M.fg,
+	symlink_fg = M.string,
 
-    -- Floating / popup
-    float_bg          = M.bg2, -- editorSuggestWidget.background
-    float_border      = M.active_bg, -- editorSuggestWidget.border
+	-- Floating / popup
+	float_bg = M.bg2, -- editorSuggestWidget.background
+	float_border = M.active_bg, -- editorSuggestWidget.border
 
-    -- Tabs
-    tab_active_bg     = M.bg,
-    tab_active_fg     = M.cursor,
-    tab_inactive_bg   = M.panel,
-    tab_inactive_fg   = M.tab_inactive_fg, 
+	-- Tabs
+	tab_active_bg = M.bg,
+	tab_active_fg = M.cursor,
+	tab_inactive_bg = M.panel,
+	tab_inactive_fg = M.tab_inactive_fg,
 }
 
 return M
-
-
-
